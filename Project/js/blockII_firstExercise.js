@@ -22,6 +22,8 @@ function searchElement(elements){
 	var index= elements.findIndex(number => number == element);
 	if(index && index > -1){
 		document.write("<h1> Found at position: " + index + "</h1>");
+	}else{
+		document.write("<h1> Not found </h1>");
 	}
 
 }
